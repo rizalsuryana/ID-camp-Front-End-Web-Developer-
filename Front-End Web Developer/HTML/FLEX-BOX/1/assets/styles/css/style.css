@@ -1,0 +1,159 @@
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 250px;
+    background-color: #11c5c6;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.box {
+    flex-grow: 1;
+
+    background-color: #fbd1cf;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* ---------------------------------------------
+                    box- flex 1 dan 2 grow
+----------------------------------------------*/
+
+.container2 {
+    display: flex;
+           /* Properti lainnya */
+           width: 800px;
+           height: 250px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+}
+
+.box2 {
+    /* properti lainnya */
+    background-color: #FBDD1C;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.first {
+    flex-grow: 1;
+}
+.second {
+    flex-grow: 2;
+}
+
+.third {
+    flex-grow: 1;
+}
+
+/*----------------------------------------------
+                     Flex Direction
+ ----------------------------------------------*/
+.container3 {
+    display: flex;
+    flex-direction: column;
+    
+    /* Properti lainnya*/
+    width: 800px;
+    height: 250px;
+    background-color: beige;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.box3 {
+    /* Properti lainnhya*/
+    background-color: purple;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.satu {
+    flex-grow: 1;
+}
+
+.dua {
+    flex-grow: 2;
+}
+
+.tiga {
+    flex-grow: 3;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(0, 177, 177);
+    border: 2px 2px;
+    margin-left: 35%;
+    margin-right: 35%; 
+
+}
+
+table{
+    margin: auto;
+    background-color: azure;
+}
+
+a{
+    
+    background-color: azure;
+    margin: 0% 37%;
+}
+
+
+/*-------------------------------------------------
+            Flex Direction Column and row
+--------------------------------------------------*/
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+    /* Properti lainnya*/
+
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    /* Properti lain*/
+
+    padding: 20px;
+    margin: 5px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box4 {
+    flex-grow: 1;
+
+    /* Properti lainnya */
+    margin: 5px;
+    border: 2px solid black;
+    background-color: yellow;
+}

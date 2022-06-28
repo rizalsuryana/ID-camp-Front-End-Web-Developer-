@@ -1,0 +1,6 @@
+Pseoudo calss
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+
+Pseoudo Element
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements

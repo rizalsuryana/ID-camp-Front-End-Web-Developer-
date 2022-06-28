@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <p>
+        Link referensi Untuk Pseoudo
+    </p>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Class Menu</a> <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Pseoudo Element</a>
+    <h4>Font Face From google</h4>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face">Font Face</a>
+
+
+    <table border="2">
+        <caption>Selector Rules</caption>
+        <tr>
+            <th>Aturan</th>
+            <th>Artinya</th>
+        </tr>
+
+        <tr>
+            <td>Contoh : img + p</td>
+            <td>menerapkan style pada elemen (p) ke 2 saja dengan syarat berada pada induk yang sama
+            </td>
+        </tr>
+
+        <tr>
+            <td>Contoh : img ~ p</td>
+            <td>Menerapkan style pada semua elemnt (p) ke 2 dst, yang berada pada induk yang sama</td>
+        </tr>
+
+        <tr>
+            <td>Contoh : div > p</td>
+            <td>
+                Menerapkan style pada seluruh element paragrap (p) yang berada di dalam element div secara langsung
+            </td>
+        </tr>
+
+        <tr>
+            <td>Contoh : div p</td>
+            <td>Seluruh elemen (p) yang ada pada element div</td>
+        </tr>
+    </table>
+    <pre>
+
+        Pseoudo Selector
+        
+        /* Memberi warna ketika cursor di arahkan
+            Dimana  rule akan diterapkan pada
+            sebuah tautan ketika diarahkan dengan kursor
+            */
+            a:hover{
+                color: black;
+            }
+
+            /* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+            a:link {
+                color: red;
+            }
+            
+            /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+            a:visited {
+                color: green;
+            }
+            
+            /* rule akan diterapkan pada sebuah tautan ketika ditekan */
+            a:active {
+                color:orange;
+            }
+    </pre>
+
+    <pre>
+
+        
+
+
+    </pre>
+
+    <style>
+        /* Rule styling akan diterapkan pada karakter pertama disebuah paragraf */
+        p::first-letter {
+            font-size: 32px;
+            font-weight: bold;
+            color: saddlebrown;
+        }
+    </style>
+ </head>
+ <body>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deserunt, dicta laudantium quae quam sequi
+    soluta vitae! A, architecto beatae, consequuntur et eveniet fuga laudantium molestias praesentium temporibus, unde
+    velit.</p>
+
+</body>
+</html>
